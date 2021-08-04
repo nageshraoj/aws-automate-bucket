@@ -4,6 +4,11 @@ variable "default_region" {
 #   default     = "t2.micro"
 }
 
+variable "default_location" {
+    description = "Default location for infra"
+  type        = string
+#   default     = "us-east-2"
+}
 variable "bucket_name" {
   description = "Name of the bucket"
   type        = string
