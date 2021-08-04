@@ -1,8 +1,3 @@
-variable "default_region" {
-  description = "Default region for infra"
-  type        = string
-#   default     = "t2.micro"
-}
 
 variable "default_location" {
     description = "Default location for infra"
