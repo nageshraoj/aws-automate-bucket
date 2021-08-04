@@ -1,0 +1,89 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: azure;
+}
+
+.main-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  position: absolute;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  background-color: cornflowerblue;
+  transition: all 2s ease-in-out;
+}
+
+.navbar-toggle {
+  margin-left: 10px;
+  position: absolute;
+  transition: all 2s ease-in-out;
+}
+
+.btn {
+  padding: 5px;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  font-size: 24px;
+  border: none;
+  display: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn.active {
+  display: block;
+}
+
+.image-box {
+  margin-top: 50px;
+  margin-left: 50px;
+  transition: all 2s ease-in-out;
+}
+
+.image-display {
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), 0 5px 10px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.image-display.active {
+  display: block;
+}
+
+.image-text {
+  margin-top: 20px;
+}
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  margin: 10px 20px;
+  background-color: rgb(119, 87, 63);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item:hover {
+  background-color: cadetblue;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
